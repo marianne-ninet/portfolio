@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body 
+{
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+}
+ul 
+{
+    margin: 0;
+    padding:0;
+}
+li 
+{
+    list-style: none;
+}
+h2
+{
+    text-transform: uppercase;
+    text-align:center;
+    padding-top:30px;
+    font-size: 2em;
+}
+a
+{
+    text-decoration: none;
+    color : black;
+}
+/* ************NAVBAR************* */
+nav
+{
+    overflow : auto;
+    background-color :#f4d8be;
+    position : fixed;
+    width: 100%;
+    opacity: 5;
+}
+header li 
+{
+    float : right ;
+    font-size : 1.2em;
+    /* em : donne la taille qui s'adapte en fct de la taille de l'ecran */
+}
+header li a 
+{
+    text-decoration: none;
+    color : black;
+    display :block;
+    text-align: center;
+    padding :16px 16px;
+}
+#logo 
+/* pour joindre l'id il faut mettre le # */
+{
+    font-family: 'Playfair Display', serif;
+    position: fixed;
+    float : left;
+}
+/* ***********IMAGE PRINCIPALE********** */
+#imageprincipale
+{
+    padding-top:200px;
+    background : url(logos/a\ pROPOS.jpg) no-repeat fixed 50% 50%;
+    background-size: cover; 
+    /* important pr couvrir tt l'ecran */
+    height : 400px;
+    
+}
+h1
+{
+    font-family: 'Playfair Display', serif;
+    text-align:center;
+    color:black;
+    font-size: 2em;
+    margin-top:1em;
+    /* text-shadow: 1px 1.5px 1.25px #f0b073; */
+    /* editeur sur internet qui permettent de visualiser */
+}
+
+#premiertrait
+{
+    height : 3px;
+    width: 25%;
+    margin : -3px auto;
+    background-color: black;
+   
+}
+
+/* *******Presentation********* */
+#presentation
+{
+    background-color: #FFF5EC;
+    padding : 10px 0px 100px 0px;
+    /* comme les aiguilles dune montre en commencant par le haut */
+}
+#texteintro
+{
+    padding : 0px 7%;
+}
+#interet-competence
+{
+    display:flex;
+}
